@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    height: 10vh;
+    background-color: rgb(12, 77, 151);
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  nav .logo a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    margin: 0px 10px;
+  }
+  nav .nav-links {
+    list-style: none;
+    margin-left: auto;
+  }
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links .active {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      position: relative;
+      display: block;
+    }
+    .logo {
+      height: 10vh;
+      display: flex;
+      align-items: center;
+    }
+    .logo a {
+      text-align: center;
+    }
+    nav .menuIcon {
+      position: absolute;
+      cursor: pointer;
+      top: 30%;
+      right: 5%;
+    }
+    nav .menuIcon .line {
+      width: 30px;
+      margin: 5px 0px;
+      height: 3px;
+      background-color: white;
+      position: relative;
+    }
+    nav .menuIcon .line:nth-child(1).open {
+      transform: rotate(45deg);
+      width: 40px;
+      height: 5px;
+      left: 0px;
+      top: 16px;
+      transition: all 1s ease;
+    }
+    nav .menuIcon .line:nth-child(2).open {
+      opacity: 0;
+    }
+    nav .menuIcon .line:nth-child(3).open {
+      transform: rotate(-45deg);
+      width: 40px;
+      height: 5px;
+      transition: all 1s ease;
+    }
+    nav .nav-links {
+      margin-top: -10px;
+      padding: 0px;
+      height: 90vh;
+      width: 100%;
+      background-color: rgb(12, 77, 151);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      clip-path: circle(50px at 90% -10%);
+      -webkit-clip-path: circle(50px at 90% -10%);
+      transition: all 1s ease-out;
+    }
+    .nav-links li {
+      margin: 40px 0px;
+    }
+    nav .nav-links.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+    }
+    .nav-links li {
+      opacity: 0;
+    }
+    .nav-links li a {
+      font-size: 25px;
+    }
+    .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4) {
+      transition: all 0.5s ease 0.8s;
+    }
+    li.fade {
+      opacity: 1;
+    }
+    .logo.close {
+      visibility: hidden;
+    }
+  }
+  
