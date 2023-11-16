@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cape Town Shows</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/rock.ico" type="images/x-icon">
+    <title>Music Events</title>
+</head>
+<body>
+
     
-    <link rel="stylesheet" href="src/styles.css" />
- </head>
+    <div class="attribution">
+        Background image by <a href="https://www.pexels.com/photo/people-in-concert-154147/" target="_blank" rel="noopener noreferrer">Josh Sorenson</a>
+        from <a href="pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a>
+    </div>
 
 
- <body>
-    <nav>
-        <div class="logo">
-          <a href="#">Cape Town Shows</a>
+    <!-- Contact section -->
+
+
+
+    <div class="banner">
+        <h1>Upcoming Music Events</h1>
+    </div>
+
+    <div class="filter-buttons">
+        <button id="upcomingButton" class="selected" onclick="filterEvents('upcoming')">Upcoming Events</button>
+        <button id="pastButton" onclick="filterEvents('past')">Past Events</button>
+    </div>
+
+    <div class="event-cards" id="eventCards">
+        <!-- Event cards will be dynamically added here -->
+        <div class="event-card">
+            <!-- Card content -->
         </div>
-        <div class="menuIcon">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <ul class="nav-links">
-          <li class="nav-item active"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <script src="src/index.js"></script>
+    </div>
 
 
- </body>
-
-
-</html> 
+    <div class="fixed-contact-section">
+        <button onclick="openEmail()">Contact</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

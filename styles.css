@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    background-image: url('images/background-pexels.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Set a transparent background for the header */
+    color: #333; /* Set the text color for the header */
+}
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    z-index: 3; /* Ensure the attribution is above other elements */
+}
+
+/* images/background-pexels.jpg */
+
+.banner {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 2; /* Ensure the banner is above other elements */
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for the filter buttons with some opacity */
+    padding: 15px;
+}
+
+.filter-buttons button {
+    margin: 7px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+}
+
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the background color and opacity as needed */
+}
+
+.event-card {
+    margin: 10px;
+    width: 300px;
+    height: 400px; /* Default height for larger screens */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(31, 30, 30, 0.2);
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the background color and opacity as needed */
+}
+/* 
+Photo by Josh Sorenson: https://www.pexels.com/photo/people-in-concert-154147/
+*/
+
+
+.event-card:hover {
+    transform: scale(1.15);
+}
+
+
+
+.card-link {
+    text-decoration: none;
+    color: darkblue
+
+}
+
+.card-link:hover {
+    color: black
+}
+
+.map-link {
+    color: #28a745;
+}
+
+.map-link:hover {
+    text-decoration: none;
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+
+
+.text-box {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.text-box h3 {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the heading */
+}
+
+.filter-buttons button.selected {
+    background-color: #333; /* Darkened background for the selected button */
+}
+
+
+
+.contact-section h2 {
+    margin-bottom: 10px;
+}
+
+.fixed-contact-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 6px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.fixed-contact-section button {
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Adjust card height for smaller screens */
+@media (max-width: 768px) {
+    .event-card {
+        height: 300px;
+    }
+}

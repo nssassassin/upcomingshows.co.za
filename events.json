@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Event 1",
+        "date": "2023-12-01",
+        "location": {
+          "name": "Venue 1",
+          "mapLink": "https://maps.google.com/venue1"
+        },
+        "link": "https://event1.com",
+        "photo": "images/concert-venue-a.jpg",
+        "miscellaneous": "Additional information for Event 1"
+      },
+    {
+      "title": "Festival at Park B",
+      "date": "2023-11-15",
+      "location": {
+        "name": "Park B",
+        "mapLink": "https://maps.google.com/?q=Park+B"
+      },
+      "photo": "images/concert-venue-b.jpg",
+      "link": "https://example.com/festival-park-b"
+      
+    },
+    {
+      "title": "Live Band at Club C",
+      "date": "2024-01-05",
+      "location": {
+        "name": "Club C",
+        "mapLink": "https://maps.google.com/?q=Club+C"
+      },
+      "photo": "images/concert-venue-c.jpg",
+      "link": "https://example.com/live-band-club-c",
+      "miscellaneous": "Additional information for Event 1"
+    },
+    {
+        "title": "Festival at Park B",
+        "date": "2023-11-15",
+        "location": {
+          "name": "Park B",
+          "mapLink": "https://maps.google.com/?q=Park+B"
+        },
+        "photo": "images/concert-venue-b.jpg",
+        "link": "https://example.com/festival-park-b"
+        
+      },
+      {
+        "title": "Live Band at Club C",
+        "date": "2024-01-05",
+        "location": {
+          "name": "Club C",
+          "mapLink": "https://maps.google.com/?q=Club+C"
+        },
+        "photo": "images/concert-venue-c.jpg",
+        "link": "https://example.com/live-band-club-c",
+        "miscellaneous": "Additional information for Event 1"
+      },
+      {
+        "title": "Live Band at Club C",
+        "date": "2024-01-05",
+        "location": {
+          "name": "Club C",
+          "mapLink": "https://maps.google.com/?q=Club+C"
+        },
+        "photo": "images/concert-venue-c.jpg",
+        "link": "https://example.com/live-band-club-c",
+        "miscellaneous": "Additional information for Event 1"
+      },
+      {
+        "title": "Live Band at Club C",
+        "date": "2024-01-05",
+        "location": {
+          "name": "Club C",
+          "mapLink": "https://maps.google.com/?q=Club+C"
+        },
+        "photo": "images/concert-venue-c.jpg",
+        "link": "https://example.com/live-band-club-c",
+        "miscellaneous": "Additional information for Event 1"
+      }
+  ]
+  
