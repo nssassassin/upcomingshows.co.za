@@ -87,12 +87,12 @@ Photo by Josh Sorenson: https://www.pexels.com/photo/people-in-concert-154147/
 
 .card-link {
     text-decoration: none;
-    color: darkblue
+    color: black
 
 }
 
 .card-link:hover {
-    color: black
+    color: darkblue
 }
 
 .map-link {

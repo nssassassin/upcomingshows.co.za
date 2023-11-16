@@ -1,80 +1,114 @@
 [
     {
-        "title": "Event 1",
-        "date": "2023-12-01",
+        "title": "Foul Play & District present Mouse, Taekwondo Sleepover & Moskitos ",
+        "date": "2023-11-18",
         "location": {
-          "name": "Venue 1",
-          "mapLink": "https://maps.google.com/venue1"
+          "name": "District",
+          "mapLink": "http://maps.google.co.za/maps?q=-33.9284693,18.4241084"
         },
-        "link": "https://event1.com",
-        "photo": "images/concert-venue-a.jpg",
-        "miscellaneous": "Additional information for Event 1"
+        "link": "https://www.quicket.co.za/events/238838-foul-play-district-present-mouse-taekwondo-sleepover-moskitos/?ref=events-list#/",
+        "photo": "images/moskitos.jpeg",
+        "miscellaneous": "A night at District with 3 strange and wonderful South African bands."
       },
     {
-      "title": "Festival at Park B",
-      "date": "2023-11-15",
+      "title": "Foul Play & District present Beast w/ We Kill Cowboys, Cistamatic, Blurry Lips & Lost//Youth",
+      "date": "2023-11-23",
       "location": {
-        "name": "Park B",
-        "mapLink": "https://maps.google.com/?q=Park+B"
+        "name": "District",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9284693,18.4241084"
       },
-      "photo": "images/concert-venue-b.jpg",
-      "link": "https://example.com/festival-park-b"
+      "photo": "https://images.quicket.co.za/0535439_0.jpeg",
+      "link": "https://www.quicket.co.za/events/238520-foul-play-district-present-beast-w-we-kill-cowboys-cistamatic-blurry-lips-losty/#/"
+      
+    }
+    ,
+    {
+      "title": "GHAST LIVE AT EVOL w/ DOOMTRIGGER & THE TALON [DEBUT SHOW]",
+      "date": "2023-11-24",
+      "location": {
+        "name": "Evol",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9299933,18.4190832"
+      },
+      "photo": "https://images.quicket.co.za/0528005_247_247.png",
+      "link": "https://www.quicket.co.za/events/236658-ghast-live-at-evol-w-doomtrigger-the-talon-debut-show/?ref=events-list#/"
+      
+    }
+    ,
+    {
+      "title": "MANZER, TerroRaze / Fallen Prophets / UnderLand LIVEat The Armchair Theatre",
+      "date": "2023-11-18",
+      "location": {
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
+      },
+      "photo": "https://images.quicket.co.za/0513984_0.jpeg",
+      "link": "https://www.quicket.co.za/events/231637-manzer-terroraze-fallen-prophets-underland-liveat-the-armchair-theatre/#/"
       
     },
     {
-      "title": "Live Band at Club C",
-      "date": "2024-01-05",
+      "title": "AKING & Basson Laubscher & The Violent Free Peace ",
+      "date": "2023-11-24",
       "location": {
-        "name": "Club C",
-        "mapLink": "https://maps.google.com/?q=Club+C"
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
       },
-      "photo": "images/concert-venue-c.jpg",
-      "link": "https://example.com/live-band-club-c",
-      "miscellaneous": "Additional information for Event 1"
-    },
+      "photo": "https://images.quicket.co.za/0514311_0.jpeg",
+      "link": "https://www.quicket.co.za/events/231748-aking-basson-laubscher-the-violent-free-peace/#/"
+    }
+    ,
     {
-        "title": "Festival at Park B",
-        "date": "2023-11-15",
-        "location": {
-          "name": "Park B",
-          "mapLink": "https://maps.google.com/?q=Park+B"
-        },
-        "photo": "images/concert-venue-b.jpg",
-        "link": "https://example.com/festival-park-b"
-        
+      "title": "TAXI VIOLENCE | LIVE",
+      "date": "2023-12-01",
+      "location": {
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
       },
-      {
-        "title": "Live Band at Club C",
-        "date": "2024-01-05",
-        "location": {
-          "name": "Club C",
-          "mapLink": "https://maps.google.com/?q=Club+C"
-        },
-        "photo": "images/concert-venue-c.jpg",
-        "link": "https://example.com/live-band-club-c",
-        "miscellaneous": "Additional information for Event 1"
+      "photo": "https://images.quicket.co.za/0524725_0.jpeg",
+      "link": "https://www.quicket.co.za/events/235504-taxi-violence-live-armchair/#/"
+    }
+    ,
+    {
+      "title": "Mad Circle present : Fuzigish / All This For Nothing / Face Jackson / Miss Jackson on the decks",
+      "date": "2023-12-02",
+      "location": {
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
       },
-      {
-        "title": "Live Band at Club C",
-        "date": "2024-01-05",
-        "location": {
-          "name": "Club C",
-          "mapLink": "https://maps.google.com/?q=Club+C"
-        },
-        "photo": "images/concert-venue-c.jpg",
-        "link": "https://example.com/live-band-club-c",
-        "miscellaneous": "Additional information for Event 1"
+      "photo": "https://images.quicket.co.za/0536224_0.jpeg",
+      "link": "https://www.quicket.co.za/events/235439-ska-day-fuzigish/#/"
+    }
+    ,
+    {
+      "title": "Dead lucky / Alive at Midnight / The Man Motels LIVE at The Armchair Theatre ",
+      "date": "2023-12-08",
+      "location": {
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
       },
-      {
-        "title": "Live Band at Club C",
-        "date": "2024-01-05",
-        "location": {
-          "name": "Club C",
-          "mapLink": "https://maps.google.com/?q=Club+C"
-        },
-        "photo": "images/concert-venue-c.jpg",
-        "link": "https://example.com/live-band-club-c",
-        "miscellaneous": "Additional information for Event 1"
-      }
+      "photo": "https://images.quicket.co.za/0532640_0.jpeg",
+      "link": "https://www.quicket.co.za/events/237806-dead-lucky-alive-at-midnight-live-at-the-armchair-theatre/#/"
+    }
+    ,
+    {
+      "title": "The Dirty Skirts LIVE",
+      "date": "2023-12-09",
+      "location": {
+        "name": "The Armchair Theatre",
+        "mapLink": "http://maps.google.co.za/maps?q=-33.9385037,18.4687039"
+      },
+      "photo": "https://images.quicket.co.za/0535372_0.jpeg",
+      "link": "https://www.quicket.co.za/events/239222-the-dirty-skirts-live-at-the-armchair-theatre/#/"
+    }
+    ,
+    {
+      "title": "",
+      "date": "2023-11-01",
+      "location": {
+        "name": "",
+        "mapLink": ""
+      },
+      "photo": "",
+      "link": ""
+    }
   ]
   

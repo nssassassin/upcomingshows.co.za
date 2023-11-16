@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Date: ${event.date}</p>
                 <p>Status: ${status}</p>
                 <p>Location: ${event.location.name}</p>
-                ${event.miscellaneous ? `<p>Miscellaneous: ${event.miscellaneous}</p>` : ''}
+                ${event.miscellaneous ? `<p> ${event.miscellaneous}</p>` : ''}
                 <p><a href="${event.location.mapLink}" target="_blank" class="map-link">Open in Google Maps</a></p>
             </a>
         </div>
