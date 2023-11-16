@@ -10,18 +10,18 @@ body {
     background-attachment: fixed;
 }
 .header {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8); /* Set a transparent background for the header */
     color: #333; /* Set the text color for the header */
 }
 .attribution {
     position: fixed;
-    bottom: 10px;
+    bottom: 45px;
     right: 10px;
-    color: white;
+    color: whitesmoke;
     text-align: right;
-    font-size: 12px;
+    font-size: 7px;
     z-index: 3; /* Ensure the attribution is above other elements */
 }
 
@@ -30,7 +30,7 @@ body {
 .banner {
     background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     z-index: 2; /* Ensure the banner is above other elements */
 }
@@ -48,7 +48,7 @@ body {
 
 .filter-buttons button {
     margin: 7px;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     border: none;
     background-color: #4caf50;
@@ -145,6 +145,16 @@ Photo by Josh Sorenson: https://www.pexels.com/photo/people-in-concert-154147/
     background-color: #007BFF;
     color: white;
     border-radius: 4px;
+}
+
+.additional-attribution {
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    color: gray;
+    text-align: right;
+    font-size: 7px;
+    z-index: 3; /* Ensure the attribution is above other elements */
 }
 
 /* Adjust card height for smaller screens */
