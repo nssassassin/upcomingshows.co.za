@@ -17,11 +17,32 @@ function filterEvents(status) {
     pastButton.classList.toggle('selected', status === 'past');
 }
 
+function sortByDate() {
+    const eventCards = document.querySelectorAll('.event-card');
+    const sortedCards = Array.from(eventCards).sort((a, b) => {
+        const dateA = new Date(a.getAttribute('data-date'));
+        const dateB = new Date(b.getAttribute('data-date'));
+        return dateA - dateB;
+    });
+
+    const eventCardsContainer = document.getElementById('eventCards');
+
+    // Clear existing cards
+    eventCardsContainer.innerHTML = '';
+
+    // Append the sorted cards to the container
+    sortedCards.forEach(card => {
+        eventCardsContainer.appendChild(card);
+    });
+}
+
+
 // Function to open the default email client
 function openEmail() {
     window.location.href = 'mailto:willierossouw001@gmail.com';
 }
 
+/*
 function createEventCard(event) {
     // ... (existing code) ...
 
@@ -40,7 +61,7 @@ function createEventCard(event) {
 
     // ... (existing code) ...
 }
-
+*/
 document.addEventListener('DOMContentLoaded', () => {
     const eventCardsContainer = document.getElementById('eventCards');
     const upcomingButton = document.getElementById('upcomingButton');
@@ -58,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add a class to the card based on status
         card.classList.add(status);
-
+        card.setAttribute('data-date', event.date);
         card.style.backgroundImage = `url('${event.photo}')`; // Set background image
 
         card.innerHTML = `
@@ -97,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Event listeners for filter buttons
             upcomingButton.addEventListener('click', () => filterEvents('upcoming'));
             pastButton.addEventListener('click', () => filterEvents('past'));
+            sortByDate();
         } catch (error) {
             console.error('Error fetching or displaying events:', error.message);
         }
