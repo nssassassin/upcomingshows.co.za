@@ -80,20 +80,34 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add a class to the card based on status
         card.classList.add(status);
         card.setAttribute('data-date', event.date);
-        card.style.backgroundImage = `url('${event.photo}')`; // Set background image
+       // card.style.backgroundImage = `url('${event.photo}')`; // Set background image
 
-        card.innerHTML = `
-        <div class="text-box">
-            <a href="${event.link}" target="_blank" class="card-link">
-                <h3>${event.title}</h3>
-                <p>Date: ${event.date}</p>
-                <p>Status: ${status}</p>
-                <p>Location: ${event.location.name}</p>
-                ${event.miscellaneous ? `<p> ${event.miscellaneous}</p>` : ''}
-                <p><a href="${event.location.mapLink}" target="_blank" class="map-link">Open in Google Maps</a></p>
-            </a>
-        </div>
-    `;
+        const contentWrapper = document.createElement('div');
+        contentWrapper.classList.add('content-wrapper');
+
+        contentWrapper.innerHTML = `
+            <div class="text-box">
+                <a href="${event.link}" target="_blank" class="card-link">
+                    <h3>${event.title}</h3>
+                    <p>Date: ${event.date}</p>
+                    <p>Location: ${event.location.name}</p>
+                    ${event.miscellaneous ? `<p> ${event.miscellaneous}</p>` : ''}
+                    <p><a href="${event.location.mapLink}" target="_blank" class="map-link">Open in Google Maps</a></p>
+                </a>
+            </div>
+        `;
+
+
+        const imageBox = document.createElement('div');
+        imageBox.classList.add('image-box');
+        imageBox.innerHTML = `<img src="${event.photo}" alt="${event.title}" class="event-image">`;
+    
+        // Append the image box after the text box
+        contentWrapper.appendChild(imageBox);
+
+
+        card.appendChild(contentWrapper);
+
         return card;
     }
 
